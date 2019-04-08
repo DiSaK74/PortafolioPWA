@@ -13,7 +13,7 @@ platformBrowserDynamic().bootstrapModule(AppModule)
 
 if (navigator.serviceWorker) {
   const url = window.location.href;
-  let swLocation = '/PortafolioPWA/portafolio/sw.js';
+  let swLocation = '/PortafolioPWA/sw.js';
 
   if (url.includes('localhost')) {
     swLocation = '/sw.js';
