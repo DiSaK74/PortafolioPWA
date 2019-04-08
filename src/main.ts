@@ -11,6 +11,12 @@ if (environment.production) {
 platformBrowserDynamic().bootstrapModule(AppModule)
   .catch(err => console.error(err));
 
-  if (navigator.serviceWorker) {
-    navigator.serviceWorker.register('/sw.js');
+if (navigator.serviceWorker) {
+  const url = window.location.href;
+  let swLocation = '/PortafolioPWA/portafolio/sw.js';
+
+  if (url.includes('localhost')) {
+    swLocation = '/sw.js';
   }
+  navigator.serviceWorker.register(swLocation);
+}
