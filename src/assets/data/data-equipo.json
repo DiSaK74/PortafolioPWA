@@ -1,0 +1,21 @@
+{
+    "equipo" : [ {
+      "frase" : "Intenta hacer pequeños logros todos los días. Si lo haces así,  Imagínate lo que lograrás en un mes... Un año... Una vida...",
+      "nombre" : "Fernando Herrera",
+      "subtitulo" : "Instructor",
+      "twitter" : "@fernando_her85",
+      "url" : "assets/img/team-1.jpg"
+    }, {
+      "frase" : "Cuando la inspiración no me encuentra, hago medio camino para encontrarla.",
+      "nombre" : "Melissa Pineda",
+      "subtitulo" : "Master",
+      "twitter" : "@Melissa",
+      "url" : "assets/img/team-2.jpg"
+    }, {
+      "frase" : "No hay disposición de ánimo a la que no pueda el hombre aplicar la medicina oportuna con sólo alcanzar de sus estanterías un libro.",
+      "nombre" : "Hernando Vallejo",
+      "subtitulo" : "Licenciado",
+      "twitter" : "@nandovallejo",
+      "url" : "assets/img/team-3.jpg"
+    } ]
+  }
